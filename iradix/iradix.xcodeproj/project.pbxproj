@@ -12,6 +12,9 @@
 		D2232C0F1D03EC7D00236795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2232C0D1D03EC7D00236795 /* Main.storyboard */; };
 		D2232C111D03EC7D00236795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2232C101D03EC7D00236795 /* Assets.xcassets */; };
 		D2232C141D03EC7D00236795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2232C121D03EC7D00236795 /* LaunchScreen.storyboard */; };
+		D230E74D1D164B6200E91A69 /* play-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D230E74C1D164B6200E91A69 /* play-icon.png */; };
+		D230E7501D164DD200E91A69 /* help-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D230E74E1D164DD200E91A69 /* help-icon.png */; };
+		D230E7511D164DD200E91A69 /* settings-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D230E74F1D164DD200E91A69 /* settings-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D2232C101D03EC7D00236795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2232C131D03EC7D00236795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2232C151D03EC7D00236795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D230E74C1D164B6200E91A69 /* play-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon.png"; sourceTree = "<group>"; };
+		D230E74E1D164DD200E91A69 /* help-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-icon.png"; sourceTree = "<group>"; };
+		D230E74F1D164DD200E91A69 /* settings-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		D2232C081D03EC7D00236795 /* iradix */ = {
 			isa = PBXGroup;
 			children = (
+				D230E74E1D164DD200E91A69 /* help-icon.png */,
+				D230E74F1D164DD200E91A69 /* settings-icon.png */,
+				D230E74C1D164B6200E91A69 /* play-icon.png */,
 				D2232C091D03EC7D00236795 /* AppDelegate.swift */,
 				D2232C0B1D03EC7D00236795 /* ViewController.swift */,
 				D2232C0D1D03EC7D00236795 /* Main.storyboard */,
@@ -122,9 +131,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D230E74D1D164B6200E91A69 /* play-icon.png in Resources */,
+				D230E7511D164DD200E91A69 /* settings-icon.png in Resources */,
 				D2232C141D03EC7D00236795 /* LaunchScreen.storyboard in Resources */,
 				D2232C111D03EC7D00236795 /* Assets.xcassets in Resources */,
 				D2232C0F1D03EC7D00236795 /* Main.storyboard in Resources */,
+				D230E7501D164DD200E91A69 /* help-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +300,7 @@
 				D2232C1A1D03EC7D00236795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
