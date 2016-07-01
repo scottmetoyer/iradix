@@ -4,7 +4,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -113,29 +112,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yvk-xY-M8r">
-                                <rect key="frame" x="10" y="413" width="560" height="120"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zH-7p-dZB" userLabel="Pad1View">
-                                        <rect key="frame" x="0.0" y="0.0" width="133" height="120"/>
-                                        <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sWS-SN-Kau" userLabel="Pad1View">
-                                        <rect key="frame" x="143" y="0.0" width="133" height="120"/>
-                                        <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKT-61-1we" userLabel="Pad1View">
-                                        <rect key="frame" x="285" y="0.0" width="133" height="120"/>
-                                        <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ax-mt-MSg" userLabel="Pad1View">
-                                        <rect key="frame" x="428" y="0.0" width="133" height="120"/>
-                                        <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                </subviews>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HG6-LX-opt" userLabel="PadButton">
-                                <rect key="frame" x="546" y="371" width="40" height="34"/>
+                                <rect key="frame" x="348" y="566" width="40" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="ilE-2N-gJc"/>
                                     <constraint firstAttribute="height" constant="52" id="jr6-Ol-aU3"/>
@@ -143,36 +121,122 @@
                                 <state key="normal" image="pad-icon.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lb1-Fb-Pp3" userLabel="ConfigureButton">
-                                <rect key="frame" x="546" y="421" width="40" height="40"/>
+                                <rect key="frame" x="396" y="563" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="QI4-Wl-GLl"/>
                                     <constraint firstAttribute="height" constant="60" id="hj8-CL-QIe"/>
                                 </constraints>
                                 <state key="normal" image="settings-icon.png"/>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1uu-IP-bOE">
+                                <rect key="frame" x="20" y="20" width="560" height="510"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Yvk-xY-M8r">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="120"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1zH-7p-dZB" userLabel="Pad1View">
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882352941175" green="0.84705882352941175" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sWS-SN-Kau" userLabel="Pad1View">
+                                                <rect key="frame" x="143" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKT-61-1we" userLabel="Pad1View">
+                                                <rect key="frame" x="285" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ax-mt-MSg" userLabel="Pad1View">
+                                                <rect key="frame" x="428" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="VZw-Tw-Zg7">
+                                        <rect key="frame" x="0.0" y="130" width="560" height="120"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y27-aq-Abv" userLabel="Pad1View">
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LcK-Ge-itT" userLabel="Pad1View">
+                                                <rect key="frame" x="143" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H5B-qF-uVO" userLabel="Pad1View">
+                                                <rect key="frame" x="285" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccd-me-5x7" userLabel="Pad1View">
+                                                <rect key="frame" x="428" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jFw-op-wqh">
+                                        <rect key="frame" x="0.0" y="260" width="560" height="120"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpm-vd-4fK" userLabel="Pad1View">
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MxX-Nd-xpU" userLabel="Pad1View">
+                                                <rect key="frame" x="143" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fE4-zl-3bX" userLabel="Pad1View">
+                                                <rect key="frame" x="285" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0KQ-al-DBS" userLabel="Pad1View">
+                                                <rect key="frame" x="428" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="wQK-yh-i9s">
+                                        <rect key="frame" x="0.0" y="390" width="560" height="120"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhr-NC-nPJ" userLabel="Pad1View">
+                                                <rect key="frame" x="0.0" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0DA-Zb-vrh" userLabel="Pad1View">
+                                                <rect key="frame" x="143" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t2O-Cq-NJb" userLabel="Pad1View">
+                                                <rect key="frame" x="285" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Vh-JQ-TaM" userLabel="Pad1View">
+                                                <rect key="frame" x="428" y="0.0" width="133" height="120"/>
+                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W6L-hO-VAA" userLabel="HelpButton">
-                                <rect key="frame" x="562" y="480" width="8" height="40"/>
+                                <rect key="frame" x="453" y="560" width="8" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="7tx-i9-4HR"/>
                                     <constraint firstAttribute="width" constant="10" id="apg-JL-gEP"/>
                                 </constraints>
                                 <state key="normal" image="help-icon.png"/>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1uu-IP-bOE">
-                                <rect key="frame" x="20" y="20" width="504" height="370"/>
-                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Yvk-xY-M8r" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="41T-Vz-OjP"/>
-                            <constraint firstItem="Yvk-xY-M8r" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="7OL-ED-CJN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Yvk-xY-M8r" secondAttribute="trailing" id="QmE-nE-oEO"/>
-                            <constraint firstItem="Yvk-xY-M8r" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="lac-mZ-uqN"/>
-                            <constraint firstItem="lb1-Fb-Pp3" firstAttribute="leading" secondItem="Yvk-xY-M8r" secondAttribute="trailing" id="q0S-GV-oTm"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1uu-IP-bOE" secondAttribute="bottom" constant="70" id="5BJ-lw-nGl"/>
+                            <constraint firstItem="1uu-IP-bOE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Gvz-mE-Kmx"/>
+                            <constraint firstItem="1uu-IP-bOE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="OW5-CP-ZIp"/>
+                            <constraint firstItem="HG6-LX-opt" firstAttribute="leading" secondItem="1uu-IP-bOE" secondAttribute="trailing" id="QlG-Ho-w7G"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1uu-IP-bOE" secondAttribute="trailing" id="erJ-uU-Kre"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="q0S-GV-oTm"/>
+                                <exclude reference="QlG-Ho-w7G"/>
                             </mask>
                         </variation>
                     </view>
