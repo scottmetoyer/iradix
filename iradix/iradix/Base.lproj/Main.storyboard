@@ -246,7 +246,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kiz-pi-GW1" secondAttribute="height" multiplier="1:1" id="mIJ-jL-enj"/>
                                 </constraints>
-                                <state key="normal" image="pad-icon.png"/>
+                                <state key="normal" image="pad-selected.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7g-qp-54I" userLabel="OptionsButton">
                                 <rect key="frame" x="550" y="90" width="30" height="30"/>
@@ -352,7 +352,7 @@
     </scenes>
     <resources>
         <image name="help-icon.png" width="10" height="43"/>
-        <image name="pad-icon.png" width="60" height="50"/>
+        <image name="pad-selected.png" width="60" height="50"/>
         <image name="play.png" width="50" height="50"/>
         <image name="record.png" width="50" height="50"/>
         <image name="settings-icon.png" width="60" height="60"/>

@@ -18,6 +18,11 @@
 		D23FD60F1D1B9505005547CB /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = D23FD60C1D1B9505005547CB /* play.png */; };
 		D23FD6101D1B9505005547CB /* record.png in Resources */ = {isa = PBXBuildFile; fileRef = D23FD60D1D1B9505005547CB /* record.png */; };
 		D23FD6111D1B9505005547CB /* square.png in Resources */ = {isa = PBXBuildFile; fileRef = D23FD60E1D1B9505005547CB /* square.png */; };
+		D273179F1D30B337006DC9BE /* help-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D273179C1D30B337006DC9BE /* help-selected.png */; };
+		D27317A01D30B337006DC9BE /* settings-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D273179D1D30B337006DC9BE /* settings-selected.png */; };
+		D27317A11D30B337006DC9BE /* pad-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D273179E1D30B337006DC9BE /* pad-selected.png */; };
+		D27317A31D30B526006DC9BE /* record-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D27317A21D30B526006DC9BE /* record-selected.png */; };
+		D27317A51D30B537006DC9BE /* play-icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D27317A41D30B537006DC9BE /* play-icon-selected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		D23FD60C1D1B9505005547CB /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		D23FD60D1D1B9505005547CB /* record.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = record.png; sourceTree = "<group>"; };
 		D23FD60E1D1B9505005547CB /* square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square.png; sourceTree = "<group>"; };
+		D273179C1D30B337006DC9BE /* help-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "help-selected.png"; sourceTree = "<group>"; };
+		D273179D1D30B337006DC9BE /* settings-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings-selected.png"; sourceTree = "<group>"; };
+		D273179E1D30B337006DC9BE /* pad-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad-selected.png"; sourceTree = "<group>"; };
+		D27317A21D30B526006DC9BE /* record-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record-selected.png"; sourceTree = "<group>"; };
+		D27317A41D30B537006DC9BE /* play-icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon-selected.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 		D2232C081D03EC7D00236795 /* iradix */ = {
 			isa = PBXGroup;
 			children = (
+				D27317A41D30B537006DC9BE /* play-icon-selected.png */,
+				D27317A21D30B526006DC9BE /* record-selected.png */,
+				D273179C1D30B337006DC9BE /* help-selected.png */,
+				D273179D1D30B337006DC9BE /* settings-selected.png */,
+				D273179E1D30B337006DC9BE /* pad-selected.png */,
 				D23FD60C1D1B9505005547CB /* play.png */,
 				D23FD60D1D1B9505005547CB /* record.png */,
 				D23FD60E1D1B9505005547CB /* square.png */,
@@ -143,12 +158,17 @@
 				D23FD60F1D1B9505005547CB /* play.png in Resources */,
 				D23FD6111D1B9505005547CB /* square.png in Resources */,
 				D230E74D1D164B6200E91A69 /* pad-icon.png in Resources */,
+				D27317A51D30B537006DC9BE /* play-icon-selected.png in Resources */,
 				D230E7511D164DD200E91A69 /* settings-icon.png in Resources */,
 				D2232C141D03EC7D00236795 /* LaunchScreen.storyboard in Resources */,
+				D27317A11D30B337006DC9BE /* pad-selected.png in Resources */,
 				D23FD6101D1B9505005547CB /* record.png in Resources */,
+				D27317A31D30B526006DC9BE /* record-selected.png in Resources */,
 				D2232C111D03EC7D00236795 /* Assets.xcassets in Resources */,
 				D2232C0F1D03EC7D00236795 /* Main.storyboard in Resources */,
+				D273179F1D30B337006DC9BE /* help-selected.png in Resources */,
 				D230E7501D164DD200E91A69 /* help-icon.png in Resources */,
+				D27317A01D30B337006DC9BE /* settings-selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
