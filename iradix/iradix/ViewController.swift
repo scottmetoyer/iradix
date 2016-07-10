@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         
         pad1View.layer.borderWidth = 1
         pad1View.layer.borderColor = UIColor(netHex:0x979797).CGColor;
+        pad1View.backgroundColor = UIColor(patternImage: UIImage(named: "pad-options.png")!);
     }
 
     override func didReceiveMemoryWarning() {
