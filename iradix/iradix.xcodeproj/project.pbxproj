@@ -23,6 +23,8 @@
 		D27317A11D30B337006DC9BE /* pad-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D273179E1D30B337006DC9BE /* pad-selected.png */; };
 		D27317A31D30B526006DC9BE /* record-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D27317A21D30B526006DC9BE /* record-selected.png */; };
 		D27317A51D30B537006DC9BE /* play-icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D27317A41D30B537006DC9BE /* play-icon-selected.png */; };
+		D2A2E0A71D3351E40077D151 /* SidebarTabStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E0A51D3351E40077D151 /* SidebarTabStoryboardSegue.swift */; };
+		D2A2E0A81D3351E40077D151 /* SidebarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E0A61D3351E40077D151 /* SidebarTabViewController.swift */; };
 		D2D42FBA1D31FE3300D91E87 /* pad-options.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D42FB91D31FE3300D91E87 /* pad-options.png */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		D273179E1D30B337006DC9BE /* pad-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad-selected.png"; sourceTree = "<group>"; };
 		D27317A21D30B526006DC9BE /* record-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "record-selected.png"; sourceTree = "<group>"; };
 		D27317A41D30B537006DC9BE /* play-icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon-selected.png"; sourceTree = "<group>"; };
+		D2A2E0A51D3351E40077D151 /* SidebarTabStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarTabStoryboardSegue.swift; sourceTree = "<group>"; };
+		D2A2E0A61D3351E40077D151 /* SidebarTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarTabViewController.swift; sourceTree = "<group>"; };
 		D2D42FB91D31FE3300D91E87 /* pad-options.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad-options.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +82,8 @@
 		D2232C081D03EC7D00236795 /* iradix */ = {
 			isa = PBXGroup;
 			children = (
+				D2A2E0A51D3351E40077D151 /* SidebarTabStoryboardSegue.swift */,
+				D2A2E0A61D3351E40077D151 /* SidebarTabViewController.swift */,
 				D2D42FB91D31FE3300D91E87 /* pad-options.png */,
 				D27317A41D30B537006DC9BE /* play-icon-selected.png */,
 				D27317A21D30B526006DC9BE /* record-selected.png */,
@@ -183,6 +189,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A2E0A71D3351E40077D151 /* SidebarTabStoryboardSegue.swift in Sources */,
+				D2A2E0A81D3351E40077D151 /* SidebarTabViewController.swift in Sources */,
 				D2232C0C1D03EC7D00236795 /* ViewController.swift in Sources */,
 				D2232C0A1D03EC7D00236795 /* AppDelegate.swift in Sources */,
 			);
