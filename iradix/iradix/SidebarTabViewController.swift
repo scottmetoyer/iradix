@@ -9,20 +9,22 @@
 import UIKit
 
 class SidebarTabViewController: UIViewController {
+    
     var currentViewController: UIViewController?
     @IBOutlet var placeholderView: UIView!
     @IBOutlet var tabBarButtons: Array<UIButton>!
     
+    @IBOutlet var test: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         if(tabBarButtons.count > 0) {
-            performSegueWithIdentifier("FirstVcIdentifier", sender: tabBarButtons[0])
+            performSegueWithIdentifier("PadSegue", sender: tabBarButtons[0])
         }
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let availableIdentifiers = ["FirstVcIdentifier", "SecondVcIdentifier"]
+        let availableIdentifiers = ["PadSegue", "OptionsSegue"]
         
         if(availableIdentifiers.contains(segue.identifier!)) {
             
