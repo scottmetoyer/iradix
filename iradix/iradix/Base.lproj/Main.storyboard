@@ -421,6 +421,7 @@
                                     <constraint firstAttribute="width" secondItem="F5K-mp-ttx" secondAttribute="height" multiplier="1:1" id="u4k-GP-XJp"/>
                                 </constraints>
                                 <state key="normal" image="help-icon.png"/>
+                                <state key="selected" image="help-selected.png"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEm-1I-a8X" userLabel="PadsButton">
                                 <rect key="frame" x="530" y="40" width="30" height="30"/>
@@ -428,7 +429,8 @@
                                     <constraint firstAttribute="width" secondItem="KEm-1I-a8X" secondAttribute="height" multiplier="1:1" id="B5d-Kh-qWu"/>
                                     <constraint firstAttribute="width" secondItem="KEm-1I-a8X" secondAttribute="height" multiplier="1:1" id="tG8-GK-UPD"/>
                                 </constraints>
-                                <state key="normal" image="pad-selected.png"/>
+                                <state key="normal" image="pad-icon.png"/>
+                                <state key="selected" image="pad-selected.png"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="tG8-GK-UPD"/>
@@ -444,6 +446,7 @@
                                     <constraint firstAttribute="width" secondItem="bp4-cL-ZF0" secondAttribute="height" multiplier="1:1" id="iLo-M2-zTx"/>
                                 </constraints>
                                 <state key="normal" image="settings-icon.png"/>
+                                <state key="selected" image="settings-selected.png"/>
                                 <connections>
                                     <segue destination="wI6-lU-vda" kind="custom" identifier="OptionsSegue" customClass="SidebarTabStoryboardSegue" customModule="iradix" customModuleProvider="target" id="IbN-gI-VYp"/>
                                 </connections>
@@ -453,7 +456,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.90980392156862744" green="0.90980392156862744" blue="0.90980392156862744" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="KEm-1I-a8X" secondAttribute="trailing" constant="20" id="352-pF-IwQ"/>
                             <constraint firstItem="KEm-1I-a8X" firstAttribute="top" secondItem="IXl-bc-qSl" secondAttribute="bottom" constant="20" id="35y-cG-BSy"/>
@@ -492,10 +495,13 @@
     </scenes>
     <resources>
         <image name="help-icon.png" width="10" height="43"/>
+        <image name="help-selected.png" width="10" height="43"/>
+        <image name="pad-icon.png" width="60" height="50"/>
         <image name="pad-selected.png" width="60" height="50"/>
         <image name="play.png" width="50" height="50"/>
         <image name="record.png" width="50" height="50"/>
         <image name="settings-icon.png" width="60" height="60"/>
+        <image name="settings-selected.png" width="60" height="60"/>
         <image name="square.png" width="50" height="50"/>
     </resources>
 </document>
