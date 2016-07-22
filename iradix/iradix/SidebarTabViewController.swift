@@ -24,7 +24,7 @@ class SidebarTabViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let availableIdentifiers = ["PadSegue", "OptionsSegue"]
+        let availableIdentifiers = ["PadSegue", "SettingsSegue"]
         
         if(availableIdentifiers.contains(segue.identifier!)) {
             
