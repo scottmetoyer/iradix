@@ -81,16 +81,16 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ch0-O4-k6g">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="143"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="F8y-jA-bPE">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="F8y-jA-bPE">
                                                 <rect key="frame" x="0.0" y="0.0" width="143" height="143"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-CV-z8t">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-CV-z8t">
                                                 <rect key="frame" x="153" y="0.0" width="143" height="143"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-sQ-12p">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-sQ-12p">
                                                 <rect key="frame" x="305" y="0.0" width="143" height="143"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-3u-Jyj">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-3u-Jyj">
                                                 <rect key="frame" x="458" y="0.0" width="143" height="143"/>
                                             </imageView>
                                         </subviews>
