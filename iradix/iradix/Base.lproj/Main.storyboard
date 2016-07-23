@@ -79,87 +79,71 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ch0-O4-k6g">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="142.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="143"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQb-y4-fGo" userLabel="Pad1View">
-                                                <rect key="frame" x="0.0" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yst-ON-oOH" userLabel="Pad1View">
-                                                <rect key="frame" x="152" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KUw-x9-dRd" userLabel="Pad1View">
-                                                <rect key="frame" x="305" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NhW-RL-vkA" userLabel="Pad1View">
-                                                <rect key="frame" x="457" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="F8y-jA-bPE">
+                                                <rect key="frame" x="0.0" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-CV-z8t">
+                                                <rect key="frame" x="153" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-sQ-12p">
+                                                <rect key="frame" x="305" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-3u-Jyj">
+                                                <rect key="frame" x="458" y="0.0" width="143" height="143"/>
+                                            </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="5Pv-No-Wpc">
-                                        <rect key="frame" x="0.0" y="152" width="600" height="142.5"/>
+                                        <rect key="frame" x="0.0" y="153" width="600" height="143"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o9c-SB-xkh" userLabel="Pad1View">
-                                                <rect key="frame" x="0.0" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n2O-Ix-1YJ" userLabel="Pad1View">
-                                                <rect key="frame" x="152" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ce-Ii-UP7" userLabel="Pad1View">
-                                                <rect key="frame" x="305" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pLR-WD-7pB" userLabel="Pad1View">
-                                                <rect key="frame" x="457" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="s6F-Ru-NUP">
+                                                <rect key="frame" x="0.0" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="zCH-RA-Rzb">
+                                                <rect key="frame" x="153" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="1wW-BI-Ywg">
+                                                <rect key="frame" x="305" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="c4h-vW-5b8">
+                                                <rect key="frame" x="458" y="0.0" width="143" height="143"/>
+                                            </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vtB-91-dE4">
-                                        <rect key="frame" x="0.0" y="305" width="600" height="142.5"/>
+                                        <rect key="frame" x="0.0" y="305" width="600" height="143"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KnK-ju-0AX" userLabel="Pad1View">
-                                                <rect key="frame" x="0.0" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8a0-BM-kxs" userLabel="Pad1View">
-                                                <rect key="frame" x="152" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rQf-EC-Kl1" userLabel="Pad1View">
-                                                <rect key="frame" x="305" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="56m-wA-WH7" userLabel="Pad1View">
-                                                <rect key="frame" x="457" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="vfT-nw-6Iq">
+                                                <rect key="frame" x="0.0" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="XBF-ON-BR5">
+                                                <rect key="frame" x="153" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="wA7-hN-O4S">
+                                                <rect key="frame" x="305" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="XZ0-eN-cTG">
+                                                <rect key="frame" x="458" y="0.0" width="143" height="143"/>
+                                            </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="F8t-pX-XKC">
-                                        <rect key="frame" x="0.0" y="457" width="600" height="142.5"/>
+                                        <rect key="frame" x="0.0" y="458" width="600" height="143"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4c4-Vs-JbN" userLabel="Pad1View">
-                                                <rect key="frame" x="0.0" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2p3-Hp-Mzy" userLabel="Pad1View">
-                                                <rect key="frame" x="152" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PLM-vO-98b" userLabel="Pad1View">
-                                                <rect key="frame" x="305" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fGo-Vg-tQQ" userLabel="Pad1View">
-                                                <rect key="frame" x="457" y="0.0" width="142.5" height="142.5"/>
-                                                <color key="backgroundColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="l9A-E0-NYj">
+                                                <rect key="frame" x="0.0" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="hg8-g4-UF1">
+                                                <rect key="frame" x="153" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="a3B-UW-zTq">
+                                                <rect key="frame" x="305" y="0.0" width="143" height="143"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="KFH-fW-Fqd">
+                                                <rect key="frame" x="458" y="0.0" width="143" height="143"/>
+                                            </imageView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -182,22 +166,22 @@
                         </variation>
                     </view>
                     <connections>
-                        <outletCollection property="padViews" destination="VQb-y4-fGo" collectionClass="NSMutableArray" id="bIl-ED-6iP"/>
-                        <outletCollection property="padViews" destination="Yst-ON-oOH" collectionClass="NSMutableArray" id="fB4-3C-iKq"/>
-                        <outletCollection property="padViews" destination="KUw-x9-dRd" collectionClass="NSMutableArray" id="uwF-mM-Bcb"/>
-                        <outletCollection property="padViews" destination="NhW-RL-vkA" collectionClass="NSMutableArray" id="F0H-uI-1P3"/>
-                        <outletCollection property="padViews" destination="o9c-SB-xkh" collectionClass="NSMutableArray" id="pt7-uS-QaO"/>
-                        <outletCollection property="padViews" destination="n2O-Ix-1YJ" collectionClass="NSMutableArray" id="OrL-je-y2q"/>
-                        <outletCollection property="padViews" destination="6ce-Ii-UP7" collectionClass="NSMutableArray" id="3Xd-GT-g46"/>
-                        <outletCollection property="padViews" destination="pLR-WD-7pB" collectionClass="NSMutableArray" id="brX-yv-1Rk"/>
-                        <outletCollection property="padViews" destination="KnK-ju-0AX" collectionClass="NSMutableArray" id="X2f-dK-3tw"/>
-                        <outletCollection property="padViews" destination="8a0-BM-kxs" collectionClass="NSMutableArray" id="Cnh-lC-ut4"/>
-                        <outletCollection property="padViews" destination="rQf-EC-Kl1" collectionClass="NSMutableArray" id="StS-G5-bRh"/>
-                        <outletCollection property="padViews" destination="56m-wA-WH7" collectionClass="NSMutableArray" id="wzj-nI-bfu"/>
-                        <outletCollection property="padViews" destination="4c4-Vs-JbN" collectionClass="NSMutableArray" id="HOq-q6-n22"/>
-                        <outletCollection property="padViews" destination="2p3-Hp-Mzy" collectionClass="NSMutableArray" id="L7s-hm-a31"/>
-                        <outletCollection property="padViews" destination="PLM-vO-98b" collectionClass="NSMutableArray" id="RjF-io-m4a"/>
-                        <outletCollection property="padViews" destination="fGo-Vg-tQQ" collectionClass="NSMutableArray" id="3yr-G8-dAt"/>
+                        <outletCollection property="padViews" destination="F8y-jA-bPE" collectionClass="NSMutableArray" id="vkq-76-Zvu"/>
+                        <outletCollection property="padViews" destination="vOo-CV-z8t" collectionClass="NSMutableArray" id="rCb-hM-Scy"/>
+                        <outletCollection property="padViews" destination="1eK-sQ-12p" collectionClass="NSMutableArray" id="Xbx-Nr-Zt6"/>
+                        <outletCollection property="padViews" destination="nfF-3u-Jyj" collectionClass="NSMutableArray" id="LuQ-1H-x8g"/>
+                        <outletCollection property="padViews" destination="s6F-Ru-NUP" collectionClass="NSMutableArray" id="tMl-6v-8ir"/>
+                        <outletCollection property="padViews" destination="zCH-RA-Rzb" collectionClass="NSMutableArray" id="D0c-qW-ug1"/>
+                        <outletCollection property="padViews" destination="1wW-BI-Ywg" collectionClass="NSMutableArray" id="oXr-sB-QNd"/>
+                        <outletCollection property="padViews" destination="c4h-vW-5b8" collectionClass="NSMutableArray" id="XPH-Ge-n9u"/>
+                        <outletCollection property="padViews" destination="vfT-nw-6Iq" collectionClass="NSMutableArray" id="WEm-Rn-aIm"/>
+                        <outletCollection property="padViews" destination="XBF-ON-BR5" collectionClass="NSMutableArray" id="Jeb-O8-moY"/>
+                        <outletCollection property="padViews" destination="wA7-hN-O4S" collectionClass="NSMutableArray" id="Ojn-IC-OTa"/>
+                        <outletCollection property="padViews" destination="XZ0-eN-cTG" collectionClass="NSMutableArray" id="WIR-4B-yi4"/>
+                        <outletCollection property="padViews" destination="l9A-E0-NYj" collectionClass="NSMutableArray" id="oQI-2q-Qk6"/>
+                        <outletCollection property="padViews" destination="hg8-g4-UF1" collectionClass="NSMutableArray" id="hjt-gZ-iIW"/>
+                        <outletCollection property="padViews" destination="a3B-UW-zTq" collectionClass="NSMutableArray" id="UhZ-uI-nfx"/>
+                        <outletCollection property="padViews" destination="KFH-fW-Fqd" collectionClass="NSMutableArray" id="NfQ-FJ-itE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezb-TQ-sUC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -314,6 +298,24 @@
                             <constraint firstItem="1uu-IP-bOE" firstAttribute="leading" secondItem="X6T-NG-EtJ" secondAttribute="leading" id="oKV-Jn-CTU"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outletCollection property="padViews" destination="1zH-7p-dZB" collectionClass="NSMutableArray" id="qCU-sn-x6z"/>
+                        <outletCollection property="padViews" destination="sWS-SN-Kau" collectionClass="NSMutableArray" id="280-Eh-Kg3"/>
+                        <outletCollection property="padViews" destination="HKT-61-1we" collectionClass="NSMutableArray" id="kx3-N5-DDH"/>
+                        <outletCollection property="padViews" destination="3ax-mt-MSg" collectionClass="NSMutableArray" id="nAJ-pS-mVh"/>
+                        <outletCollection property="padViews" destination="y27-aq-Abv" collectionClass="NSMutableArray" id="tEM-yV-SST"/>
+                        <outletCollection property="padViews" destination="LcK-Ge-itT" collectionClass="NSMutableArray" id="B1B-HT-GcJ"/>
+                        <outletCollection property="padViews" destination="H5B-qF-uVO" collectionClass="NSMutableArray" id="2sX-Lj-Z6U"/>
+                        <outletCollection property="padViews" destination="ccd-me-5x7" collectionClass="NSMutableArray" id="kYn-cB-6MU"/>
+                        <outletCollection property="padViews" destination="bpm-vd-4fK" collectionClass="NSMutableArray" id="RQK-dT-kE2"/>
+                        <outletCollection property="padViews" destination="MxX-Nd-xpU" collectionClass="NSMutableArray" id="haW-26-7XB"/>
+                        <outletCollection property="padViews" destination="fE4-zl-3bX" collectionClass="NSMutableArray" id="PuA-YY-l9I"/>
+                        <outletCollection property="padViews" destination="0KQ-al-DBS" collectionClass="NSMutableArray" id="siX-pC-kZy"/>
+                        <outletCollection property="padViews" destination="uhr-NC-nPJ" collectionClass="NSMutableArray" id="5Ve-mR-WYa"/>
+                        <outletCollection property="padViews" destination="0DA-Zb-vrh" collectionClass="NSMutableArray" id="5SU-Os-dNd"/>
+                        <outletCollection property="padViews" destination="t2O-Cq-NJb" collectionClass="NSMutableArray" id="cl4-Vr-hc9"/>
+                        <outletCollection property="padViews" destination="7Vh-JQ-TaM" collectionClass="NSMutableArray" id="soJ-91-4Bb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ED-vW-BSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -608,6 +610,7 @@
         <image name="help-selected.png" width="180" height="132"/>
         <image name="pad-icon.png" width="180" height="150"/>
         <image name="pad-selected.png" width="180" height="150"/>
+        <image name="pad-settings.png" width="600" height="420"/>
         <image name="play.png" width="150" height="150"/>
         <image name="record.png" width="150" height="150"/>
         <image name="settings-icon.png" width="180" height="180"/>

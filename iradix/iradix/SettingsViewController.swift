@@ -15,14 +15,11 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        padViews[0].layer.borderWidth = 1
-        padViews[0].layer.borderColor = UIColor(netHex:0x979797).CGColor;
-        
-        let image = UIImage(named: "pad-settings");
-        let imageView = UIImageView(image: image!);
-        imageView.frame = CGRect(x: 0, y: 0, width: 50, height: 50);
-        imageView.contentMode = UIViewContentMode.ScaleAspectFill;
-        padViews[0].addSubview(imageView);
+        // Create pad borders
+        for padView in padViews {
+            padView.layer.borderWidth = 1
+            padView.layer.borderColor = UIColor(netHex:0x979797).CGColor;
+        }
     }
     
     override func didReceiveMemoryWarning() {
