@@ -81,16 +81,16 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ch0-O4-k6g">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="143"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="F8y-jA-bPE">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="F8y-jA-bPE">
                                                 <rect key="frame" x="0.0" y="0.0" width="143" height="143"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-CV-z8t">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="vOo-CV-z8t">
                                                 <rect key="frame" x="153" y="0.0" width="143" height="143"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-sQ-12p">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="1eK-sQ-12p">
                                                 <rect key="frame" x="305" y="0.0" width="143" height="143"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-3u-Jyj">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pad-settings.png" translatesAutoresizingMaskIntoConstraints="NO" id="nfF-3u-Jyj">
                                                 <rect key="frame" x="458" y="0.0" width="143" height="143"/>
                                             </imageView>
                                         </subviews>
@@ -388,11 +388,15 @@
                                     <constraint firstAttribute="width" secondItem="Cks-nJ-dYI" secondAttribute="height" multiplier="1:1" id="QBF-Ip-bGd"/>
                                 </constraints>
                                 <state key="normal" image="play.png"/>
+                                <state key="selected" image="play-icon-selected.png"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="QBF-Ip-bGd"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="playButtonClicked:" destination="VDF-1P-MTL" eventType="touchUpInside" id="otL-bL-Z9L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WgG-5W-ZwB" userLabel="StopButton">
                                 <rect key="frame" x="70" y="550" width="30" height="30"/>
@@ -406,6 +410,9 @@
                                         <exclude reference="EV2-78-e4F"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="stopButtonClicked:" destination="VDF-1P-MTL" eventType="touchUpInside" id="yHh-3s-trM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ4-ep-b3w" userLabel="RecordButton">
                                 <rect key="frame" x="120" y="550" width="30" height="30"/>
@@ -413,6 +420,10 @@
                                     <constraint firstAttribute="width" secondItem="hZ4-ep-b3w" secondAttribute="height" multiplier="1:1" id="c8G-GF-DZX"/>
                                 </constraints>
                                 <state key="normal" image="record.png"/>
+                                <state key="selected" image="record-selected.png"/>
+                                <connections>
+                                    <action selector="recordButtonClicked:" destination="VDF-1P-MTL" eventType="touchUpInside" id="h20-cU-uu1"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01/16" textAlignment="natural" lineBreakMode="tailTruncation" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="eHZ-EW-gxS">
                                 <rect key="frame" x="170" y="550" width="73" height="30"/>
@@ -594,7 +605,11 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="beatLabel" destination="eHZ-EW-gxS" id="eM8-am-gyV"/>
                         <outlet property="placeholderView" destination="JZB-Uv-Gts" id="rEG-q4-XQT"/>
+                        <outlet property="playButton" destination="Cks-nJ-dYI" id="lFE-WP-xL0"/>
+                        <outlet property="recordButton" destination="hZ4-ep-b3w" id="atl-dZ-dEt"/>
+                        <outlet property="stopButton" destination="WgG-5W-ZwB" id="fLB-Cl-owv"/>
                         <outletCollection property="tabBarButtons" destination="KEm-1I-a8X" collectionClass="NSMutableArray" id="W5m-Nc-Z8A"/>
                         <outletCollection property="tabBarButtons" destination="bp4-cL-ZF0" collectionClass="NSMutableArray" id="fSd-V6-Y7p"/>
                         <outletCollection property="tabBarButtons" destination="F5K-mp-ttx" collectionClass="NSMutableArray" id="ZdT-zf-Oh1"/>
@@ -611,7 +626,9 @@
         <image name="pad-icon.png" width="180" height="150"/>
         <image name="pad-selected.png" width="180" height="150"/>
         <image name="pad-settings.png" width="600" height="420"/>
+        <image name="play-icon-selected.png" width="150" height="150"/>
         <image name="play.png" width="150" height="150"/>
+        <image name="record-selected.png" width="150" height="150"/>
         <image name="record.png" width="150" height="150"/>
         <image name="settings-icon.png" width="180" height="180"/>
         <image name="settings-selected.png" width="180" height="180"/>

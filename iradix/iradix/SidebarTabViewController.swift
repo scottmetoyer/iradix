@@ -13,8 +13,31 @@ class SidebarTabViewController: UIViewController {
     var currentViewController: UIViewController?
     @IBOutlet var placeholderView: UIView!
     @IBOutlet var tabBarButtons: Array<UIButton>!
+    @IBOutlet var playButton: UIButton!
+    @IBOutlet var stopButton: UIButton!
+    @IBOutlet var recordButton: UIButton!
+    @IBOutlet var beatLabel: UILabel!
     
-    @IBOutlet var test: UIButton!
+    @IBAction func playButtonClicked(sender: AnyObject) {
+        if playButton.selected {
+            playButton.selected = false
+        } else {
+            playButton.selected = true
+        }
+    }
+    
+    @IBAction func stopButtonClicked(sender: AnyObject) {
+        playButton.selected = false
+    }
+    
+    @IBAction func recordButtonClicked(sender: AnyObject) {
+        if recordButton.selected {
+            recordButton.selected = false
+        } else {
+            recordButton.selected = true
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
