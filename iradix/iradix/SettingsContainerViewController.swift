@@ -26,6 +26,12 @@ class SettingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func handlePan(recognizer:UIPanGestureRecognizer) {
+        let translation = recognizer.translationInView(self.view)
+        NSLog("\(translation.x), \(translation.y)")
+        recognizer.setTranslation(CGPointZero, inView: self.view)
+    }
 }
 
 
