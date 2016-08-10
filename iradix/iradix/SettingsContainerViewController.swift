@@ -30,7 +30,7 @@ class SettingsViewController: UIViewController {
     @IBAction func handlePan(recognizer:UIPanGestureRecognizer) {
         let translation = recognizer.translationInView(self.view)
         NSLog("\(translation.x), \(translation.y)")
-        recognizer.setTranslation(CGPointZero, inView: self.view)
+        // recognizer.setTranslation(CGPointZero, inView: self.view)
     }
 }
 

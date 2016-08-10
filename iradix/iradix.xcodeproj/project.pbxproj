@@ -27,6 +27,7 @@
 		D27317A51D30B537006DC9BE /* play-icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = D27317A41D30B537006DC9BE /* play-icon-selected.png */; };
 		D2A2E0A71D3351E40077D151 /* SidebarTabStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E0A51D3351E40077D151 /* SidebarTabStoryboardSegue.swift */; };
 		D2A2E0A81D3351E40077D151 /* SidebarTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A2E0A61D3351E40077D151 /* SidebarTabViewController.swift */; };
+		D2A401A31D5AEA7D007BB809 /* Pads.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A401A21D5AEA7D007BB809 /* Pads.swift */; };
 		D2D42FBA1D31FE3300D91E87 /* pad-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D2D42FB91D31FE3300D91E87 /* pad-settings.png */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		D27317A41D30B537006DC9BE /* play-icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-icon-selected.png"; sourceTree = "<group>"; };
 		D2A2E0A51D3351E40077D151 /* SidebarTabStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarTabStoryboardSegue.swift; sourceTree = "<group>"; };
 		D2A2E0A61D3351E40077D151 /* SidebarTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidebarTabViewController.swift; sourceTree = "<group>"; };
+		D2A401A21D5AEA7D007BB809 /* Pads.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pads.swift; sourceTree = "<group>"; };
 		D2D42FB91D31FE3300D91E87 /* pad-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pad-settings.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				D2232C151D03EC7D00236795 /* Info.plist */,
 				D26CB5DE1D41D7AA0065ACA1 /* PadViewController.swift */,
 				D26CB5E01D41D7E00065ACA1 /* SettingsContainerViewController.swift */,
+				D2A401A21D5AEA7D007BB809 /* Pads.swift */,
 			);
 			path = iradix;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A401A31D5AEA7D007BB809 /* Pads.swift in Sources */,
 				D2A2E0A71D3351E40077D151 /* SidebarTabStoryboardSegue.swift in Sources */,
 				D2A2E0A81D3351E40077D151 /* SidebarTabViewController.swift in Sources */,
 				D2232C0C1D03EC7D00236795 /* ViewController.swift in Sources */,
