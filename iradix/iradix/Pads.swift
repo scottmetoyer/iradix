@@ -8,7 +8,27 @@
 
 class PadSingleton {
     static let sharedInstance = PadSingleton()
-    private init() {}
+    
+    var pads: [Pad] = []
+    
+    private init() {
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+        pads.append(Pad(note: 63, channel: 1, xParam: 0, yParam: 0))
+    }
 }
 
 class Pad {
@@ -20,4 +40,10 @@ class Pad {
     
     var yParam: Int!
     
+    init(note: Int, channel: Int, xParam: Int, yParam: Int) {
+        self.note = note
+        self.channel = channel
+        self.xParam = xParam
+        self.yParam = yParam
+    }
 }
