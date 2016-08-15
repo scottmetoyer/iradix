@@ -12,6 +12,8 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet var padViews: Array<UIView>!
     
+    @IBOutlet var padChannels: Array<UILabel>!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,6 +31,11 @@ class SettingsViewController: UIViewController {
     
     @IBAction func handlePan(recognizer:UIPanGestureRecognizer) {
         let translation = recognizer.translationInView(self.view)
+    
+        // Set Pad 4 value
+        let pad4Value:Int! = Int(padChannels[3].text!)
+        
+        
         NSLog("\(translation.x), \(translation.y)")
         // recognizer.setTranslation(CGPointZero, inView: self.view)
     }
