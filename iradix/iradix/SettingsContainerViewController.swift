@@ -33,8 +33,15 @@ class SettingsViewController: UIViewController {
         let translation = recognizer.translationInView(self.view)
     
         // Set Pad 4 value
-        let pad4Value:Int! = Int(padChannels[3].text!)
-        
+        if (translation.x % 10 == 0) {
+            var pad4Value:Int! = Int(padChannels[4].text!)
+            if (translation.x > 0) {
+                pad4Value = pad4Value + 1
+            } else {
+                pad4Value = pad4Value - 1
+            }
+            padChannels[4].text = String(pad4Value)
+        }
         
         NSLog("\(translation.x), \(translation.y)")
         // recognizer.setTranslation(CGPointZero, inView: self.view)
